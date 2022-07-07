@@ -1,0 +1,35 @@
+.our-profession__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;      
+}
+.our-profession__image{
+    position: relative; 
+    display: flex;
+    justify-content: space-between;
+}
+ .our-profession__description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    width: 370px;
+    height: 70px;    
+    background: rgba(47, 48, 58, 0.8);  
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;        
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.our-profession__image > .our-profession__description{
+    position: absolute;
+    background-color: rgba(47, 48, 58, 0.8);
+    bottom: 0px;
+    right: 0px;
+    padding: 0px;
+}

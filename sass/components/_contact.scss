@@ -1,0 +1,42 @@
+.contact{
+    display: flex;
+    
+}
+.contact__item{
+    color: #757575;
+
+    &:hover svg {
+        fill:#2196F3;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+
+.contact__icon{
+    fill: #757575; 
+    
+    &:hover svg {
+        fill:#2196F3;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+
+.contact__link{
+    text-decoration: none;
+    color: #757575;    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    margin-right: 30px;
+    margin-left: 10px;
+
+    &:hover{
+        color:#2196F3;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+   
+}
+
