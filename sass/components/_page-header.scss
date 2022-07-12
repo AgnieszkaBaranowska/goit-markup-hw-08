@@ -1,11 +1,29 @@
-.page-header{
-    background-color: #FFFFFF;
-    border-bottom: 1px solid #ECECEC;
+.page-header {
+    background-color: #fff;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    border-bottom: 1px solid #ececec;
+    max-width: 100%;  
 }
-.header{    
-    height: 80px;
+.header{
     display: flex;
-    justify-content:space-between;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 0;
+}
+
+
+
+@media screen and (min-width: 1200px) {
+.page-header {
+    background-color: #fff;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    border-bottom: 1px solid #ececec;
+    min-height: 80px;
     align-items: center;
-    flex-direction: row;
+} 
+.header{
+    display: flex;
+}
 }
