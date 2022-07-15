@@ -1,3 +1,5 @@
+
+
 .team{
     background: #F5F4FA;
     
@@ -8,22 +10,33 @@
     margin: 0px;
 }
 .team_person-photo{
-    height: 428px;
+    width: 450px;
+    height: 460px;
+}
+.team_person-card{
+    
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     margin: 0px;
+    padding-bottom: 30px;
 }
 .team__text{
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
 }
-.team__person-name{
+.team__person-name{   
+    
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 19px;  
+    text-align: center;
     letter-spacing: 0.03em;
+    color: #212121;  
     margin: 0px;
     padding-bottom: 10px;
     padding-top: 30px;    
@@ -36,8 +49,8 @@
     margin: 0px;
 }
 
-
-@media screen and (min-width:768px) and (max-width:1200px){
+/*
+@media screen  and (min-width:768px){
 
     .team{
         background: #F5F4FA;
@@ -51,12 +64,17 @@
         margin: 0px;
     }
     .team_person-photo{
-        height: 428px;
-        background: #FFFFFF;
-        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-        border-radius: 0px 0px 4px 4px;
-        margin: 0px;
-    }
+    width: 270px;
+    height: 260px;
+}
+.team_person-card{
+    
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    margin: 0px;
+    padding-bottom: 30px;
+}
     .team__text{
         display: flex;
         flex-direction: column;
@@ -79,3 +97,4 @@
         margin: 0px;
     }
 }
+*/
