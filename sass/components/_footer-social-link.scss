@@ -1,3 +1,6 @@
+.footer-social-link{
+    margin-bottom: 60px;
+}
 .footer-social-link__title{
     font-weight: 700;
     font-size: 14px;
@@ -5,6 +8,9 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
 .footer-social-link__item{
