@@ -1,3 +1,8 @@
+.footer__logo-item{
+    display: flex;
+    justify-content: center;
+    
+}
 .footer__logo{
     text-decoration: none;
     color: #FFFFFF;
@@ -12,3 +17,20 @@
 .logo-web {
     color: #2196F3;
 }
+/* 
+
+.footer__logo{
+    text-decoration: none;
+    color: #FFFFFF;
+    width: 145px;
+    height: 31px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+.logo-web {
+    color: #2196F3;
+}
+*/
