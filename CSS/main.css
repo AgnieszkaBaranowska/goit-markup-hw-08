@@ -258,27 +258,26 @@ textarea:focus {
     }
 }
 */
-.mobile-navigation {
-  margin: 0;
+@media only screen and (max-width: 768px) {
+  .mobile-navigation {
+    margin: 0;
+  }
+  .menu-toggle {
+    width: 40px;
+    border: 0;
+    padding: 0;
+    background-color: #fff;
+  }
+  .mobile-navigation__icon {
+    width: 24px;
+    height: 16px;
+  }
+  .mobile-navigation__icon:hover {
+    fill: #2196F3;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
-
-.mobile-navigation__button {
-  width: 40px;
-  border: 0;
-  padding: 0;
-  background-color: #fff;
-}
-
-.mobile-navigation__icon {
-  width: 24px;
-  height: 16px;
-}
-.mobile-navigation__icon:hover {
-  fill: #2196F3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 /*
 
 @media screen  and (min-width: 768px){
