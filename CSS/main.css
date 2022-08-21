@@ -393,7 +393,7 @@ textarea:focus {
     display: none;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 1200px) {
+@media only screen and (min-width: 768px) {
   .desktop-menu {
     display: flex;
     align-items: baseline;
@@ -1545,7 +1545,7 @@ textarea:focus {
     display: none;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 1200px) {
+@media only screen and (min-width: 768px) {
   .desktop-menu-nav {
     list-style: none;
     display: flex;
