@@ -7,10 +7,15 @@
 }
 .team__list{
     list-style: none;
+    display: flex;
+    justify-content: center;
     padding: 0px;
     margin: 0px;
-    
+    justify-items: center;
+    flex-wrap: wrap;
+    gap: 30px;    
 }
+
 .team_person-photo{
     width: 450px;
     height: 460px;
@@ -64,7 +69,6 @@
         padding: 0px;
         margin: 0px;
         justify-items: center;
-        display: flex;
         flex-wrap: wrap;
         gap: 30px;
     }
