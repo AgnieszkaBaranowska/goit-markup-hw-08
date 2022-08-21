@@ -1,3 +1,4 @@
+@media only screen and (max-width:768px){
 .customer{
     font-weight: 700;
     font-size: 36px;
@@ -46,8 +47,9 @@
     height: 60px;
     fill:#AFB1B8;
 }
+}
 
-/*
+@media only screen and (min-width: 1200px) {
 .customer{
     font-weight: 700;
     font-size: 36px;
@@ -93,4 +95,4 @@
     height: 60.04px;
     fill:#AFB1B8;
 }
-*/
+}
