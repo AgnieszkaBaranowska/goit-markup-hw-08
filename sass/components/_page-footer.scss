@@ -43,6 +43,49 @@
     }
 }
 
+@media only screen and (min-width: 768px){
+    .page-footer{
+        background-color:  #2F303A;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        display: flex;       
+    }    
+
+    .footer{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        gap: 144px;
+
+    }
+    
+    .footer__address{
+        color: #FFFFFF;
+        width: 253px;
+        height: 21px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        margin: 0 auto;
+    }
+    .footer__contact{
+        color: rgba(255, 255, 255, 0.6);
+        width: 231px;
+        height: 21px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+}
     
     
  @media only screen and (min-width: 1200px){

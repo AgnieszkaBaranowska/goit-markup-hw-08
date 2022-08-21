@@ -17,6 +17,25 @@
 }
 }
 
+@media only screen and (min-width: 768px){
+
+    .section__title{     
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 33px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+        margin: 0px;
+        margin-bottom: 30px;
+        padding-top: 60px;
+    }
+    }
+
 
 @media screen  and (min-width: 1200px){
     .section__title{
