@@ -1,23 +1,11 @@
-.service{
+@media only screen and (max-width: 768px){
+    .service{
     background: #2F303A;
     height: 400px;
     display:flex;
     justify-content: center;
     align-items: center;    
-    
-    
-}
-@media (min-device-pixel-ratio: 2),
-  (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .service {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-    rgba(47, 48, 58, 0.4)), url(.../images/group.jpg);
-    
-  }
-}
-
+    }
 .service__list{
     display: flex;
     flex-direction: column;
@@ -62,10 +50,11 @@
     color: #FFFFFF;
     padding: 0px;   
 }
+}
 
 
-/*
-@media screen  and (min-width: 1200px) {
+
+@media only screen and (min-width: 1200px) {
     
 
     .service{
@@ -118,4 +107,3 @@
         padding: 0px;   
     }
 }
-*/
