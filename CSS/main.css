@@ -318,7 +318,7 @@ textarea:focus {
   list-style: none;
 }
 
-.mobile-menu .nav__link {
+.mobile-menu .mobile-menu__link {
   display: block;
   padding: 10px;
   color: #212121;
@@ -327,6 +327,18 @@ textarea:focus {
 
 .menu-toggle-close-icon {
   height: 18.68px;
+}
+
+.mobile-menu-social-link {
+  display: flex;
+  text-decoration: none;
+}
+
+.mobile-menu-social-link__item {
+  text-decoration: none;
+  color: #2196F3;
+  list-style: none;
+  margin: 0;
 }
 
 /*
