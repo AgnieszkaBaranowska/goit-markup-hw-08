@@ -1,3 +1,9 @@
+@media only screen and (max-width: 1200px) {
+    .our-profession{
+        display: none;
+    }
+}
+@media only screen and (min-width: 1200px){
 .our-profession__list{
     display: flex;
     justify-content: space-between;
@@ -32,4 +38,5 @@
     bottom: 0px;
     right: 0px;
     padding: 0px;
+}
 }

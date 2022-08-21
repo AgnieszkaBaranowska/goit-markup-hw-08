@@ -1,3 +1,6 @@
+    @media only screen and (max-width:768px){
+        
+    
     .page-footer{
         background-color:  #2F303A;
         padding-top: 60px;
@@ -38,11 +41,11 @@
         justify-content: center;
         margin: 0 auto;
     }
+}
 
-    /*
     
     
-
+ @media only screen and (min-width: 1200px){
     .page-footer{
         background-color:  #2F303A;
         padding-top: 60px;
@@ -75,4 +78,4 @@
         letter-spacing: 0.03em;
         text-decoration: none;
     }
-*/
+}
