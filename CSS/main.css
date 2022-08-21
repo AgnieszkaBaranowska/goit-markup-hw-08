@@ -14,12 +14,20 @@ body {
   color: #212121;
 }
 
-.container {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 0px;
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+  }
 }
-
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0px;
+  }
+}
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -1668,7 +1676,7 @@ textarea:focus {
     border-radius: 2px;
     display: block;
     position: relative;
-    top: 27px;
+    top: 28px;
   }
 }
 @media only screen and (min-width: 1200px) {
@@ -1707,6 +1715,6 @@ textarea:focus {
     border-radius: 2px;
     display: block;
     position: relative;
-    top: 27px;
+    top: 24px;
   }
 }/*# sourceMappingURL=main.css.map */
