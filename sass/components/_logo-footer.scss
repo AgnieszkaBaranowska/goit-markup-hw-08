@@ -1,4 +1,26 @@
-@media only screen and (max-width: 768px){
+.footer__logo-item{
+    display: flex;
+    justify-content: center;
+    margin: 20px;    
+}
+.footer__item{
+    margin-bottom: 60px;
+}
+.footer__logo{
+    text-decoration: none;
+    color: #FFFFFF;
+    width: 145px;
+    height: 31px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+.logo-web {
+    color: #2196F3;
+}
+@media only screen and (min-width: 480px){
     .footer__logo-item{
     display: flex;
     justify-content: center;

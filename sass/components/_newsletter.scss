@@ -126,11 +126,14 @@
     text-transform: uppercase;
     color: #FFFFFF;
     margin: 0px;
+    display: flex;
+    justify-content: flex-start;
 }
 .newsletter{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
 }
 .newsletter__input{
     width: 358px;
