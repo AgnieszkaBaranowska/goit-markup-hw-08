@@ -1443,6 +1443,9 @@ desktop-menu {
   }
 }
 @media only screen and (min-width: 1200px) {
+  .our-profession {
+    display: flex;
+  }
   .our-profession__list {
     display: flex;
     justify-content: space-between;
@@ -2108,7 +2111,8 @@ desktop-menu {
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-    gap: 144px;
+    gap: 60px;
+    flex-direction: row;
   }
   .footer__address {
     color: #FFFFFF;

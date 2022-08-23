@@ -11,7 +11,10 @@
         display: none;
     }
 }
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width:1200px){
+    .our-profession{
+        display: flex;
+    }
 .our-profession__list{
     display: flex;
     justify-content: space-between;
