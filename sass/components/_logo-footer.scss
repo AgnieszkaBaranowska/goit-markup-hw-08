@@ -48,7 +48,7 @@
     .footer__logo-item{
         display: flex;
         justify-content: center;
-        margin: 20px;    
+        margin: 20px;           
     }
    
     .footer__logo{
@@ -68,7 +68,13 @@
 }
 
 @media only screen and (min-width: 1200px){
-.footer__logo{
+    .footer__logo-item{
+        display: flex;
+        justify-content: flex-start;
+        margin: 20px;  
+        margin-left: 0px;   
+    }
+    .footer__logo{
     text-decoration: none;
     color: #FFFFFF;
     width: 145px;
@@ -78,6 +84,7 @@
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
+    
 }
 .logo-web {
     color: #2196F3;

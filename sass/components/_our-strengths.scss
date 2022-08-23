@@ -1,4 +1,55 @@
-@media only screen and (max-width: 768px){
+.our-strengths{
+    list-style: none;    
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 30px;
+}  
+.our-strengths__list{
+    width: 450px;     
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin: 0 auto;
+}
+.our-strengths__icon{    
+    height: 70px;
+    margin-top: 25px;
+    margin-bottom: 25px;  
+    &:hover{
+        fill:#2196F3;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }  
+}
+
+.our-strengths__item{
+    background-color: #fff;
+    padding-top: 30px;
+}
+.our-strengths__title{
+    color: #212121;
+    width: 270px;
+    height: 16px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin: 0 auto; 
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+}
+.our-strengths__text{    
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+@media only screen and (min-width: 480px){
     .our-strengths{
     list-style: none;    
     align-items: center;

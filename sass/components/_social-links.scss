@@ -1,4 +1,44 @@
-@media only screen and (max-width: 768px){
+.social-link{
+    list-style: none;
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    margin-top: 16px;   
+    padding: 0px; 
+    margin-right: 32px;
+    margin-left: 32px;
+    
+}
+.social-link__list{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 44px;
+    height: 44px;    
+    border-radius: 50%;
+    margin-right: 10px;
+    
+
+    &:hover{
+        background-color: #2196F3;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);     
+    }
+    &:hover svg{
+        fill: #FFFFFF;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+
+
+.social-link__icons{
+    width: 20px;
+    height: 20px;
+    align-items: center; 
+    fill: #AFB1B8;    
+}
+@media only screen and (min-width:480px){
 .social-link{
     list-style: none;
     display: flex;

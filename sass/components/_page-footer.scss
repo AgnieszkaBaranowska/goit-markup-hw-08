@@ -129,9 +129,11 @@
     }    
     .footer{
         display: flex;  
-        justify-content: space-between;
         align-items: baseline;
         flex-wrap: nowrap;
+        flex-direction: row;
+        gap: 0px;
+        justify-content: space-between;
     }
     .footer__address{
         color: #FFFFFF;
@@ -142,6 +144,7 @@
         font-size: 14px;
         line-height: 24px;
         letter-spacing: 0.03em;
+        justify-content: flex-start;
     }
     .footer__contact{
         color: rgba(255, 255, 255, 0.6);
@@ -153,5 +156,6 @@
         line-height: 24px;
         letter-spacing: 0.03em;
         text-decoration: none;
+        justify-content: flex-start;
     }
 }
