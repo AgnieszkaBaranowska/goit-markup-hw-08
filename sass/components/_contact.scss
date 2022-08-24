@@ -1,4 +1,4 @@
-desktop-menu{
+.desktop-menu{
     display: none;
 }
 
@@ -65,7 +65,8 @@ desktop-menu{
     .contact{
         display: flex;
         list-style: none;
-        
+        margin-left: 345px;
+        padding: 0px;
     }
     .contact__item{
         color: #757575;

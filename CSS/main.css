@@ -16,6 +16,7 @@ body {
 
 .container {
   width: 100%;
+  margin: 0 auto;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -622,7 +623,7 @@ textarea:focus {
     display: flex;
     align-items: baseline;
     justify-content: space-around;
-    margin: 0;
+    margin: 0 auto;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -653,8 +654,8 @@ textarea:focus {
   .header {
     display: flex;
     align-items: baseline;
-    justify-content: space-around;
-    margin: 0;
+    margin: 0 auto;
+    justify-content: space-between;
   }
 }
 .header__logo {
@@ -720,6 +721,8 @@ textarea:focus {
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
+    display: flex;
+    justify-content: flex-start;
   }
   .logo-web {
     color: #2196F3;
@@ -745,6 +748,30 @@ textarea:focus {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+@media only screen and (min-width: 480px) {
+  .mobile-navigation {
+    margin: 0;
+  }
+  .menu-toggle {
+    border: 0;
+    padding: 0;
+    background-color: #fff;
+  }
+  .mobile-navigation__icon {
+    width: 24px;
+    height: 16px;
+  }
+  .mobile-navigation__icon:hover {
+    fill: #2196F3;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+@media (min-width: 768px) {
+  .menu-toggle {
+    display: none;
+  }
+}
 .menu-container {
   position: fixed;
   top: 0;
@@ -851,31 +878,7 @@ textarea:focus {
   color: #2196F3;
 }
 
-@media only screen and (min-width: 480px) {
-  .mobile-navigation {
-    margin: 0;
-  }
-  .menu-toggle {
-    border: 0;
-    padding: 0;
-    background-color: #fff;
-  }
-  .mobile-navigation__icon {
-    width: 24px;
-    height: 16px;
-  }
-  .mobile-navigation__icon:hover {
-    fill: #2196F3;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-}
-@media (min-width: 768px) {
-  .menu-toggle {
-    display: none;
-  }
-}
-desktop-menu {
+.desktop-menu {
   display: none;
 }
 
@@ -932,6 +935,8 @@ desktop-menu {
   .contact {
     display: flex;
     list-style: none;
+    margin-left: 345px;
+    padding: 0px;
   }
   .contact__item {
     color: #757575;
