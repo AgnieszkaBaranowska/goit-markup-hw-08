@@ -1,3 +1,6 @@
+.project__photo{
+    width: 450px;
+}
 .project{
     list-style: none;
     display: flex;
@@ -89,6 +92,9 @@
     padding: 0px;    
 }
 @media only screen and (min-width:480px){
+    .project__photo{
+        width: 450px;
+    }
     .project{
         list-style: none;
         display: flex;
@@ -182,6 +188,9 @@
 }
 
 @media only screen and (min-width:768px){
+    .project__photo{
+        width: 354px;
+    }
     .project{
         list-style: none;
         display: flex;
@@ -204,7 +213,7 @@
     .project__item{
         position: relative;
         width: 354px;
-        height: 440px;
+        height: 404px;
         margin: 0px;
         overflow: hidden;
         align-items: center;  

@@ -3051,6 +3051,10 @@ textarea:focus {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
+.project__photo {
+  width: 450px;
+}
+
 .project {
   list-style: none;
   display: flex;
@@ -3144,6 +3148,9 @@ textarea:focus {
 }
 
 @media only screen and (min-width: 480px) {
+  .project__photo {
+    width: 450px;
+  }
   .project {
     list-style: none;
     display: flex;
@@ -3230,6 +3237,9 @@ textarea:focus {
   }
 }
 @media only screen and (min-width: 768px) {
+  .project__photo {
+    width: 354px;
+  }
   .project {
     list-style: none;
     display: flex;
@@ -3251,7 +3261,7 @@ textarea:focus {
   .project__item {
     position: relative;
     width: 354px;
-    height: 440px;
+    height: 404px;
     margin: 0px;
     overflow: hidden;
     align-items: center;
